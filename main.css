@@ -459,35 +459,6 @@ textarea,
 .notice__5fd4c.notice_a687ab {
   background: rgba(0, 0, 0, 0.6);
 }
-.typeMacOS__496b0 {
-  width: 70px;
-  height: 48px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.typeMacOS__496b0.unfocused_a1a492 .macButton__3b74b {
-  background: hsla(0deg, 0%, 100%, 0.7);
-}
-.typeMacOS__496b0 > .macButtons__7b1bc {
-  padding: 0 10px;
-}
-.typeMacOS__496b0:before, .typeMacOS__496b0:after {
-  margin: 0 2px;
-  font-size: 10px;
-  order: 1;
-}
-.typeMacOS__496b0:before {
-  content: "CV";
-  color: var(--main-color);
-  font-weight: 700;
-  text-shadow: 0 0 3px;
-}
-.typeMacOS__496b0:after {
-  content: "6.3.0";
-  color: hsla(0deg, 0%, 100%, 0.3);
-}
 
 /*CUSTOMIZE CHANNELS*/
 /*header*/
@@ -1150,96 +1121,6 @@ button.button__4f306.disabled_dc5630 > .contents_fb6220 > svg {
 .button__66e8c.buttonColor_a6eb73.buttonActive__407a7:hover {
   background: hsla(0deg, 0%, 100%, 0.95);
   color: var(--hover-color);
-}
-
-.theme-dark .container_ca50b9 {
-  position: relative;
-  background: transparent;
-  margin-bottom: 10px;
-}
-.theme-dark .container_ca50b9:before, .theme-dark .container_ca50b9:after {
-  bottom: -8px;
-  position: absolute;
-  color: hsla(0deg, 0%, 100%, 0.3);
-  font-size: 11px;
-  font-weight: 700;
-  transition: all 0.5s ease-in-out;
-}
-.theme-dark .container_ca50b9:before {
-  content: "ClearVision";
-  right: 50%;
-  text-align: right;
-  transform: translateX(50%);
-}
-.theme-dark .container_ca50b9:after {
-  content: "v6.3.0";
-  left: 50%;
-  text-align: left;
-  opacity: 0;
-  transform: translateX(50%) rotateX(90deg);
-}
-.theme-dark .container_ca50b9:hover:before {
-  margin-right: 1px;
-  transform: none;
-}
-.theme-dark .container_ca50b9:hover:after {
-  margin-left: 1px;
-  opacity: 1;
-  transform: none;
-}
-.theme-dark .container_ca50b9 .withTagAsButton_cc125f,
-.theme-dark .container_ca50b9 .withTagless__98b7d {
-  min-width: calc(100% - 100px);
-  width: auto;
-}
-.theme-dark .container_ca50b9 .withTagAsButton_cc125f:hover,
-.theme-dark .container_ca50b9 .withTagless__98b7d:hover {
-  background-color: hsla(0deg, 0%, 0%, 0.3);
-  color: #fff;
-}
-.theme-dark .container_ca50b9 .avatar_f8541f {
-  width: 32px !important;
-  height: 32px !important;
-  transition: all 0.15s ease-in-out;
-}
-.theme-dark .container_ca50b9 .avatar_f8541f:after {
-  content: "Status";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  color: #fff;
-  font-size: 5px;
-  font-weight: 700;
-  text-align: center;
-  line-height: 32px;
-  text-transform: uppercase;
-  opacity: 0;
-  transition: all 0.15s ease-in-out;
-  pointer-events: none;
-}
-.theme-dark .container_ca50b9 .avatar_f8541f foreignObject {
-  transition: all 0.15s ease-in-out;
-}
-.theme-dark .container_ca50b9 .avatar_f8541f:hover {
-  width: 40px !important;
-  height: 40px !important;
-  opacity: 1;
-}
-.theme-dark .container_ca50b9 .avatar_f8541f:hover:after {
-  font-size: 10px;
-  line-height: 40px;
-  opacity: 1;
-}
-.theme-dark .container_ca50b9 .avatar_f8541f:hover foreignObject {
-  opacity: 0.5;
-}
-.theme-dark .container_ca50b9 .title__10613 {
-  color: #fff;
-}
-.theme-dark .container_ca50b9 .subtext__8f869 {
-  color: hsla(0deg, 0%, 100%, 0.3);
 }
 
 .container_d667ff {
