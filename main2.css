@@ -490,14 +490,14 @@ textarea,
 .typeWindows__5fa63 > .wordmark__0d178:before {
   content: "";
   color: hsla(0deg, 0%, 100%, 0.7);
-  font-size: 14px;
+  font-size: 0px;
   text-shadow: 0 0 3px #000;
 }
 .typeWindows__5fa63 > .wordmark__0d178:after {
   content: "";
   color: hsla(0deg, 0%, 100%, 0.3);
   font-family: var(--code-font);
-  font-size: 10px;
+  font-size: 0px;
 }
 .typeWindows__5fa63 > .wordmark__0d178 > svg {
   filter: drop-shadow(0 0 5px var(--main-color));
